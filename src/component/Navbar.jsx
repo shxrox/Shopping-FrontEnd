@@ -1,6 +1,7 @@
 import { ShoppingBasket } from 'lucide-react';
 import { CircleUserRound } from 'lucide-react';
 import { Menu } from 'lucide-react';
+import Home from "./Body"
 
 
 import { useState } from 'react';
@@ -27,7 +28,7 @@ const Navbar = () => {
                 data-aos-duration="800" className='hidden md:flex text-[17px] pt-3 font-sans space-x-6 text-white '>
                 <a data-aos="fade-down"
                     data-aos-easing="linear"
-                    data-aos-duration="900" href="">Home</a>
+                    data-aos-duration="900" href="Home">Home</a>
                 <a data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1000" href="">Product</a>
@@ -54,7 +55,7 @@ const Navbar = () => {
             {isMobileNav && (
                 <div className="fixed inset-0 md:hidden flex justify-center items-center bg-[#1c352d6e] bg-opacity-80 z-50">
                     <div data-aos="fade-down" className="flex flex-col text-white  space-y-6 index-x-0 text-center">
-                        <a href="">Home</a>
+                        <a href="../">Home</a>
                         <a href="">Product</a>
                         <a href="">About</a>
                         <a href="">Location</a>
