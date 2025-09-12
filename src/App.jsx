@@ -4,6 +4,7 @@ import Body from './component/Body'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Product from './component/Product';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +20,7 @@ function App() {
     <>
       <Navbar />
       <Body />
-  
+      <Product />
     </>
   )
 }
