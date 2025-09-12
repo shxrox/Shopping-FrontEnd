@@ -60,7 +60,7 @@ const Navbar = () => {
                         <a href="">Location</a>
                         <a href="">Vision</a>
                         <a href="">Mission</a>
-                        <button className=' rounded-3xl border border-2 py-2 px-8 border-[#1C352D] hover:text-white hover:bg-[#1C352D] '>Login</button>
+                        <button className=' rounded-3xl  border-2 py-2 px-8 border-[#1C352D] hover:text-white hover:bg-[#1C352D] '>Login</button>
                     </div>
                 </div>
             )}
