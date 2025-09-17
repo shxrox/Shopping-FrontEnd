@@ -28,10 +28,10 @@ const Navbar = () => {
                 data-aos-duration="800" className='hidden md:flex text-[17px] pt-3 font-sans space-x-6 text-white '>
                 <a data-aos="fade-down"
                     data-aos-easing="linear"
-                    data-aos-duration="900" href="Home">Home</a>
+                    data-aos-duration="900" href="/">Home</a>
                 <a data-aos="fade-down"
                     data-aos-easing="linear"
-                    data-aos-duration="1000" href="">Product</a>
+                    data-aos-duration="1000" href="/ProductDetails">Product</a>
                 <a data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1100" href="">About</a>
@@ -55,8 +55,8 @@ const Navbar = () => {
             {isMobileNav && (
                 <div className="fixed inset-0 md:hidden flex justify-center items-center bg-[#1c352d6e] bg-opacity-80 z-50">
                     <div data-aos="fade-down" className="flex flex-col text-white  space-y-6 index-x-0 text-center">
-                        <a href="../">Home</a>
-                        <a href="">Product</a>
+                        <a href="/">Home</a>
+                        <a href="/ProductDetails">Product</a>
                         <a href="">About</a>
                         <a href="">Location</a>
                         <a href="">Vision</a>
